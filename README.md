@@ -18,6 +18,7 @@ They are a new feature added in version 16.8 that allows React features (example
 9-HookMouse- A hook calling useEffect only once
 10-IntervalClassCounter - Incrementation every second with class
 11-IntervalHookCounter - Incrementation every second with hook
+12-DataFetching - Fetching data with useEffect
 
 
 ## Available Scripts
