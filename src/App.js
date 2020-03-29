@@ -5,6 +5,7 @@ import HookCounter from './components/HookCounter';
 import HookCounterTwo from './components/HookCounterTwo';
 import ClassCounterTwo from './components/ClassCounterTwo';
 import HookCounterThree from './components/HookCounterThree';
+import HookCounterFour from './components/HookCounterFour';
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
       {/*<HookCounterTwo/>*/}{/*Counter using Hook with previousState*/}
       {/*<ClassCounterTwo/>*/}{/*Counter using class with previousState*/}
       {/*<HookCounterThree/>*/}{/*useState with objects*/}
+      {<HookCounterFour/>}{/*useState with array*/}
     </div>
   );
 }
