@@ -1,15 +1,15 @@
 # The project
- This project introduces some code for be consulted about React Hoocks.
+ This project introduces some code for be consulted about React Hooks.
 
 ## What are Hoocks in React?
 They are a new feature added in version 16.8 that allows React features (example: state)without classes.
 
 ## List of components:
 
-### 1-ClassCounter - A counter using class
-### 2-HookCounter - A counter using hook
-### 3-ClassCounterTwo - A counter using class with previous state
-### 4-HookCounterTwo - A counter using hook with previous state
+### 0-ClassCounter - A counter using class
+### 1-HookCounter - A counter using hook
+### 2-ClassCounterTwo - A counter using class with previous state
+### 3-HookCounterTwo - A counter using hook with previous state
 ### 4-HookCounterThree - useState with Object
 ### 5-HookCounterThree - useState with Array
 
