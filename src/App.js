@@ -11,6 +11,8 @@ import HookCounterOne from './components/HookCounterOne';
 import ClassMouse from './components/ClassMouse';
 import HookMouse from './components/HookMouse';
 import MouseContainer from './components/MouseContainer';
+import IntervalClassCounter from './components/IntervalClassCounter';
+import IntervalHookCounter from './components/IntervalHookCounter';
 
 const App = () => {
   return (
@@ -25,7 +27,8 @@ const App = () => {
       {/*<HookCounterOne/>}{/*hook using useEffect*/}
       {/*<ClassMouse/>}{/*class setting up a component only once with componentDidMount*/}
       {/*<HookMouse/>}{/*hook calling useEffect only once*/}
-      {<MouseContainer/>}{/**/}
+      {/*<IntervalClassCounter/>}{/*Incrementation every second with class*/}
+      {<IntervalHookCounter/>}{/*Incrementation every second with hook*/}
     </div>
   );
 }

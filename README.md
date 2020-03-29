@@ -16,6 +16,8 @@ They are a new feature added in version 16.8 that allows React features (example
 7-HookCounterOne - A hook using useEffect
 8-ClassMouse - A class setting up a component only once with componentDidMount
 9-HookMouse- A hook calling useEffect only once
+10-IntervalClassCounter - Incrementation every second with class
+11-IntervalHookCounter - Incrementation every second with hook
 
 
 ## Available Scripts
