@@ -13,6 +13,12 @@ const HookMouse = () => {
     useEffect(() => {
         console.log('useEffect called')
         window.addEventListener('mousemove', logMousePosition)
+
+        return () => {
+            /*cleanup function starts here when we return in the useEffect*/
+            console.log('Component unmounting code')
+            window.removeEventListener('mousemove', logMousePosition)
+        }
     }, [])
 
     return (

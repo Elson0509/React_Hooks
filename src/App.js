@@ -10,6 +10,7 @@ import ClassCounterOne from './components/ClassCounterOne';
 import HookCounterOne from './components/HookCounterOne';
 import ClassMouse from './components/ClassMouse';
 import HookMouse from './components/HookMouse';
+import MouseContainer from './components/MouseContainer';
 
 const App = () => {
   return (
@@ -23,7 +24,8 @@ const App = () => {
       {/*<ClassCounterOne/>}{/*class with componentDidMount and componentDidUpdate*/}
       {/*<HookCounterOne/>}{/*hook using useEffect*/}
       {/*<ClassMouse/>}{/*class setting up a component only once with componentDidMount*/}
-      {<HookMouse/>}{/*hook calling useEffect only once*/}
+      {/*<HookMouse/>}{/*hook calling useEffect only once*/}
+      {<MouseContainer/>}{/**/}
     </div>
   );
 }
