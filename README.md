@@ -6,14 +6,16 @@ They are a new feature added in version 16.8 that allows React features (example
 
 ## List of components:
 
-### 0-ClassCounter - A counter using class
-### 1-HookCounter - A counter using hook
-### 2-ClassCounterTwo - A counter using class with previous state
-### 3-HookCounterTwo - A counter using hook with previous state
-### 4-HookCounterThree - useState with Object
-### 5-HookCounterFour - useState with Array
-### 6-ClassCounterOne - A class using componentDidMount and componentDidUpdate
-### 7-HookCounterOne - A hook using useEffect
+0-ClassCounter - A counter using class
+1-HookCounter - A counter using hook
+2-ClassCounterTwo - A counter using class with previous state
+3-HookCounterTwo - A counter using hook with previous state
+4-HookCounterThree - useState with Object
+5-HookCounterFour - useState with Array
+6-ClassCounterOne - A class using componentDidMount and componentDidUpdate
+7-HookCounterOne - A hook using useEffect
+8-ClassMouse - A class setting up a component only once with componentDidMount
+9-HookMouse- A hook calling useEffect only once
 
 
 ## Available Scripts
