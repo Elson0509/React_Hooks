@@ -11,7 +11,9 @@ They are a new feature added in version 16.8 that allows React features (example
 ### 2-ClassCounterTwo - A counter using class with previous state
 ### 3-HookCounterTwo - A counter using hook with previous state
 ### 4-HookCounterThree - useState with Object
-### 5-HookCounterThree - useState with Array
+### 5-HookCounterFour - useState with Array
+### 6-ClassCounterOne - A class using componentDidMount and componentDidUpdate
+### 7-HookCounterOne - A hook using useEffect
 
 
 ## Available Scripts
